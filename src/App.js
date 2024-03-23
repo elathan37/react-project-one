@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+// import { Link } from 'react-router-dom';
+import { Card } from "reactstrap";
+// import Header from './components/Header'
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import VideoContentCard from "./features/videoContent/VideoContentCard";
 
 function App() {
+  const [showVidCard, setShowVidCard] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="text-center mt-5">
+      <Card
+        text="Start"
+        onClick={() => {
+          setShowVidCard(true);
+          console.log("Test: clicked!");
+        }}
+      >
+        START
+      </Card>
+      {showVidCard && <VideoContentCard />}
     </div>
   );
 }
