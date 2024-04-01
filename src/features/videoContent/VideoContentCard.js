@@ -15,7 +15,7 @@ const VideoContentCard = () => {
                   <Card.Title>{item.title}</Card.Title>
                   <Card.Subtitle>{item.niche}</Card.Subtitle>
                   <Card.Link href="https://www.google.com" target="_blank">
-                    Card Link
+                    Future Video Modal
                   </Card.Link>
                 </Card.Body>
                 {/* {item.niche}
