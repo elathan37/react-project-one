@@ -1,24 +1,24 @@
 import { useState } from "react";
 // import { Link } from 'react-router-dom';
-import { Card } from "reactstrap";
 // import Header from './components/Header'
 import "./App.css";
+import Button from 'react-bootstrap/Button';
 import "bootstrap/dist/css/bootstrap.min.css";
 import VideoContentCard from "./features/videoContent/VideoContentCard";
 
 function App() {
   const [showVidCard, setShowVidCard] = useState(false);
+
   return (
     <div className="text-center mt-5">
-      <Card
-        text="Start"
+      <Button
         onClick={() => {
-          setShowVidCard(true);
-          console.log("Test: clicked!");
+          setShowVidCard(!showVidCard);
+          console.log("vidcard opened");
         }}
       >
-        START
-      </Card>
+        {showVidCard ? 'Close' : 'Start'}
+      </Button>
       {showVidCard && <VideoContentCard />}
     </div>
   );
