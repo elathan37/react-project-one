@@ -6,6 +6,7 @@ export const CONTENT = [
     description:
       "I'm constantly asked by student about the best side hustles to start. So today, I've made a list of seven options, complete with ...",
     niche: "make money online",
+    url: "https://www.youtube.com/embed/2SLSser4y6U",
   },
   {
     id: 1,
@@ -15,14 +16,16 @@ export const CONTENT = [
     description:
       "Here are 7 websites to make money online within 24 hours in 2024. MY #1 WAY TO MAKE A FULL-TIME INCOME ONLINE ...",
     niche: "make money online",
+    url: "https://www.youtube.com/embed/MWrf_Kl-r5M",
   },
   {
     id: 2,
-    name: "Smart Money Tactics",
-    title: "How To Make $500 In 24hrs EASY MAKE MONEY ONLINE SIDE HUSTLE!",
+    name: "Jay Brown",
+    title: "10 minutes $500 per Day - Easy AI Side Hustle (Tested & Proven.)",
     description:
-      "This video is intended for any persons looking to work online and ...",
+      "I cover essential aspects of making money using AI and provide insights into the world of side hustles. Whether you're looking for ..",
     niche: "make money online",
+    url: "https://www.youtube.com/embed/hqZuHBRCWUg&t=531s",
   },
   {
     id: 3,
@@ -31,6 +34,7 @@ export const CONTENT = [
     description:
       "LIVE YOUTUBE TRAINING TUESDAY: https://go.thecontentgrowthengine.com/live-02-05-2024 ✓ FREE YouTube Course: ...",
     niche: "make money online",
+    url: "https://www.youtube.com/embed/LtXsj8xiWV0&t=896s",
   },
   {
     id: 4,
@@ -39,6 +43,7 @@ export const CONTENT = [
     description:
       "Master React 18 with TypeScript! ⚛️ Build amazing front-end apps with this beginner-friendly tutorial. Want the ultimate React ...",
     niche: "coding",
+    url: "https://www.youtube.com/embed/SqcY0GlETPk&t=785s",
   },
   {
     id: 5,
@@ -48,6 +53,7 @@ export const CONTENT = [
     description:
       "After building this simple, half-hour movie application, imagine what a long and comprehensive 20-hour Next.js course would look ...",
     niche: "coding",
+    url: "https://www.youtube.com/embed/b9eMGE7QtTk&t=2567s",
   },
   {
     id: 6,
@@ -56,6 +62,7 @@ export const CONTENT = [
     description:
       "A list of the core concepts every React developer should have a solid grasp on. React Course: ...",
     niche: "coding",
+    url: "https://www.youtube.com/embed/s2skans2dP4",
   },
   {
     id: 7,
@@ -64,5 +71,6 @@ export const CONTENT = [
     description:
       "React hooks provide a highly-efficient was to tap into framework features and organize reactive logic. Learn how use every built-in React hook...",
     niche: "coding",
+    url: "https://www.youtube.com/embed/TNhaISOUy6Q",
   },
 ];
