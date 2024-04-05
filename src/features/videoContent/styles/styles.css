@@ -2,15 +2,21 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 0 auto;
+  margin: 50 auto;
 }
 
 .video-card {
   width: 50%;
   margin: 10px;
   padding: 10px;
-  background-color: #780980cc;
+  background-color: #191919cc;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 @media (max-width: 768px) {
