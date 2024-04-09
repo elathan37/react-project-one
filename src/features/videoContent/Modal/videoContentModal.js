@@ -4,8 +4,9 @@ import Modal from 'react-bootstrap/Modal';
 
 const VideoContentModal = ({ data }) => {
   const [isOpen, setIsOpen] = useState(true);
-
-  const handleClose = () => setIsOpen(false);
+  const handleClose = () => {
+    setIsOpen(false);
+  }
 
   const { title, url } = data;
 
@@ -44,7 +45,7 @@ const VideoContentModal = ({ data }) => {
           {!url && <p>No video available</p>}
         </Modal.Body>
         <Modal.Footer className="justify-content-center">
-          <Button variant="dark" size="lg" onClick={handleClose}>
+          <Button variant="dark" size="lg" data={null} onClick={handleClose}>
             Close
           </Button>
         </Modal.Footer>
